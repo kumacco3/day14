@@ -1,0 +1,2 @@
+# Requirements without Version Specify
+streamlit-pandas-profiling

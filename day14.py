@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
-import pandas_profiling
-from streamlit_pandas_profiling import st_profile_report
+import ydata_profiling
+from streamlit_ydata_profiling import st_profile_report
 
-st.header('`streamlit_pandas_profiling`')
+st.header('`streamlit_ydata_profiling`')
 
 df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
 
